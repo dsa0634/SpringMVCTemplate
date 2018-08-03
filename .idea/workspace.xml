@@ -23,12 +23,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AuthTokenMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/AuthTokenMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="loginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/haomostudio/SpringMVCTemplate/controller/loginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+            <state relative-caret-position="273">
+              <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HmUserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/haomostudio/SpringMVCTemplate/controller/HmUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="547" column="26" lean-forward="false" selection-start-line="547" selection-start-column="13" selection-end-line="547" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HmUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/HmUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HmUserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/mybatis/com/haomostudio/SpringMVCTemplate/HmUserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="128" column="16" lean-forward="true" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+              <folding>
+                <marker date="1533261622234" expanded="true" signature="5160:5263" ph="select from hm_user" />
+                <marker date="1533261622234" expanded="true" signature="5348:5405" ph="delete from " />
+                <marker date="1533261622234" expanded="true" signature="5521:5540" ph="delete from " />
+                <marker date="1533261622234" expanded="true" signature="5753:5904" ph="select from hm_user" />
+                <marker date="1533261622234" expanded="true" signature="6005:7069" ph="insert into hm_user... " />
+                <marker date="1533261622234" expanded="true" signature="10865:10893" ph="select count... hm_user" />
+                <marker date="1533261622234" expanded="true" signature="13760:15017" ph="update hm_us... " />
+                <marker date="1533261622234" expanded="true" signature="15240:17418" ph="update hm_us... " />
+                <marker date="1533261622234" expanded="true" signature="17530:18636" ph="update hm_us... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +98,7 @@
     <findStrings>
       <find>Created by</find>
       <find>JuniorSpringMVCTemplate</find>
+      <find>hmUserService</find>
     </findStrings>
     <replaceStrings>
       <replace>SpringMVCTemplate</replace>
@@ -97,12 +150,13 @@
         <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/CcNotificationSettingMapper.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/DepartmentMapper.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/haomostudio/SpringMVCTemplate/po/HmUserExample.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/HmUserMapper.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/OrganizationMapper.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/MenuMapper.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/RoleMapper.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/ViewHmUserDepartmentRoleMapper.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/AuthTokenMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/HmUserMapper.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/mybatis/com/haomostudio/SpringMVCTemplate/HmUserMapper.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/haomostudio/SpringMVCTemplate/controller/loginController.java" />
       </list>
     </option>
@@ -591,30 +645,25 @@
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -622,7 +671,7 @@
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -631,7 +680,7 @@
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -641,7 +690,7 @@
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -652,20 +701,14 @@
             <path>
               <item name="milk" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="haomostudio" type="462c0819:PsiDirectoryNode" />
               <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -696,11 +739,11 @@
       <recent name="com.haomostudio.SpringMVCTemplate.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaprojects\SpringMVCTemplate\web\src\main\resources\mybatis\com\haomostudio\SpringMVCTemplate" />
       <recent name="D:\ideaprojects\SpringMVCTemplate" />
       <recent name="D:\ideaprojects\SpringMVCTemplate\domain\src\main\java\com\haomostudio\SpringMVCTemplate\po" />
       <recent name="D:\ideaprojects\SpringMVCTemplate\dao\src\main\java\com\haomostudio\SpringMVCTemplate\dao" />
       <recent name="D:\ideaprojects\SpringMVCTemplate\service\src\main\java\com\haomostudio\SpringMVCTemplate\service" />
-      <recent name="D:\ideaprojects\SpringMVCTemplate\service\src\main\java\com\haomostudio\SpringMVCTemplate\service\impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -936,7 +979,7 @@
       <workItem from="1533204753559" duration="2554000" />
       <workItem from="1533208046592" duration="6934000" />
       <workItem from="1533215213355" duration="2828000" />
-      <workItem from="1533259065331" duration="707000" />
+      <workItem from="1533259065331" duration="2216000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1533259339066</created>
@@ -945,11 +988,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533259339066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1533259798889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533259798889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15572000" />
+    <option name="totallyTimeSpent" value="17081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -1039,28 +1089,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/haomostudio/SpringMVCTemplate/service/common/service/impl/RoleFunctionServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/haomostudio/SpringMVCTemplate/controller/MenuController.java" />
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/haomostudio/SpringMVCTemplate/service/common/service/DataBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/haomostudio/SpringMVCTemplate/service/common/service/impl/OracleDataBaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7220">
-          <caret line="396" column="35" lean-forward="false" selection-start-line="396" selection-start-column="35" selection-end-line="396" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/impl/OracleDataBaseDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
@@ -1127,27 +1161,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/HmUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/haomostudio/SpringMVCTemplate/service/impl/AuthTokenServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/haomostudio/SpringMVCTemplate/controller/HmUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="53" column="68" lean-forward="true" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/haomostudio/SpringMVCTemplate/service/HmUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1211,14 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/CcLoggingMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1232,16 +1238,6 @@
         <state relative-caret-position="57">
           <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/AuthTokenMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,21 +1265,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mybatis/com/haomostudio/SpringMVCTemplate/AuthTokenMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533259133415" expanded="true" signature="3668:3774" ph="select from auth_token" />
+            <marker date="1533259133415" expanded="true" signature="3859:3919" ph="delete from " />
+            <marker date="1533259133415" expanded="true" signature="4038:4060" ph="delete from " />
+            <marker date="1533259133415" expanded="true" signature="4255:4495" ph="insert into auth_token... " />
+            <marker date="1533259133415" expanded="true" signature="5637:5668" ph="select count... auth_token" />
+            <marker date="1533259133415" expanded="true" signature="6580:6859" ph="update auth_... " />
+            <marker date="1533259133415" expanded="true" signature="7085:7546" ph="update auth_... " />
+            <marker date="1533259133415" expanded="true" signature="7661:7908" ph="update auth_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mybatis/com/haomostudio/SpringMVCTemplate/CcNotificationSettingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533259126193" expanded="true" signature="4077:4196" ph="select from cc_notification_setting" />
+            <marker date="1533259126193" expanded="true" signature="4281:4354" ph="delete from " />
+            <marker date="1533259126193" expanded="true" signature="4485:4520" ph="delete from " />
+            <marker date="1533259126193" expanded="true" signature="4727:5185" ph="insert into cc_notification_setting... " />
+            <marker date="1533259126193" expanded="true" signature="6999:7043" ph="select count... cc_notification_setting" />
+            <marker date="1533259126193" expanded="true" signature="8434:8959" ph="update cc_no... " />
+            <marker date="1533259126193" expanded="true" signature="9197:10081" ph="update cc_no... " />
+            <marker date="1533259126193" expanded="true" signature="10208:10673" ph="update cc_no... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mybatis/com/haomostudio/SpringMVCTemplate/FunctionAuthorityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533259128781" expanded="true" signature="3813:3927" ph="select from function_authority" />
+            <marker date="1533259128781" expanded="true" signature="4012:4080" ph="delete from " />
+            <marker date="1533259128781" expanded="true" signature="4207:4237" ph="delete from " />
+            <marker date="1533259128781" expanded="true" signature="4440:4762" ph="insert into function_authority... " />
+            <marker date="1533259128781" expanded="true" signature="6116:6155" ph="select count... function_authority" />
+            <marker date="1533259128781" expanded="true" signature="7214:7575" ph="update funct... " />
+            <marker date="1533259128781" expanded="true" signature="7809:8403" ph="update funct... " />
+            <marker date="1533259128781" expanded="true" signature="8526:8848" ph="update funct... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/haomostudio/SpringMVCTemplate/controller/HmUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="547" column="26" lean-forward="false" selection-start-line="547" selection-start-column="13" selection-end-line="547" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/haomostudio/SpringMVCTemplate/po/HmUserExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="228">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/AuthTokenMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mybatis/com/haomostudio/SpringMVCTemplate/HmUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="128" column="16" lean-forward="true" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1533261622234" expanded="true" signature="5160:5263" ph="select from hm_user" />
+            <marker date="1533261622234" expanded="true" signature="5348:5405" ph="delete from " />
+            <marker date="1533261622234" expanded="true" signature="5521:5540" ph="delete from " />
+            <marker date="1533261622234" expanded="true" signature="5753:5904" ph="select from hm_user" />
+            <marker date="1533261622234" expanded="true" signature="6005:7069" ph="insert into hm_user... " />
+            <marker date="1533261622234" expanded="true" signature="10865:10893" ph="select count... hm_user" />
+            <marker date="1533261622234" expanded="true" signature="13760:15017" ph="update hm_us... " />
+            <marker date="1533261622234" expanded="true" signature="15240:17418" ph="update hm_us... " />
+            <marker date="1533261622234" expanded="true" signature="17530:18636" ph="update hm_us... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/haomostudio/SpringMVCTemplate/dao/HmUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/haomostudio/SpringMVCTemplate/controller/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
