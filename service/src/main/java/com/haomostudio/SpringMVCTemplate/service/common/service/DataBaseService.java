@@ -5,6 +5,7 @@ package com.haomostudio.SpringMVCTemplate.service.common.service;
 
 
 import com.haomostudio.SpringMVCTemplate.common.domain.Column;
+import org.apache.poi.ss.formula.functions.T;
 
 import java.util.List;
 import java.util.Map;
@@ -69,4 +70,5 @@ public interface DataBaseService {
     void executeSingleSQL(String sql);
 
 
+    Object getObject(String sql, Class clazz);
 }

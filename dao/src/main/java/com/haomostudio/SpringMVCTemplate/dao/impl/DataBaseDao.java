@@ -1,5 +1,7 @@
 package com.haomostudio.SpringMVCTemplate.dao.impl;
 
+import org.apache.poi.ss.formula.functions.T;
+
 import java.util.List;
 import java.util.Map;
 
@@ -46,4 +48,5 @@ public interface DataBaseDao {
 
     int getColumnNotZeroCount(String tableNamePrefix, String tableName, String columnName);
 
+    Object getObject(String sql, Class clazz);
 }

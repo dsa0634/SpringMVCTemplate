@@ -6,6 +6,7 @@ import com.haomostudio.SpringMVCTemplate.common.domain.Column;
 import com.haomostudio.SpringMVCTemplate.common.util.DataBaseOperationUtils;
 import com.haomostudio.SpringMVCTemplate.dao.impl.DataBaseDao;
 import com.haomostudio.SpringMVCTemplate.service.common.service.DataBaseService;
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -389,5 +390,10 @@ public class OracleDataBaseServiceImpl implements DataBaseService {
     @Override
     public void executeSingleSQL(String sql) {
         this.databaseDao.executeSingleSQL(sql);
+    }
+
+    @Override
+    public Object getObject(String sql, Class clazz){
+        return this.databaseDao.getObject(sql,clazz);
     }
 }

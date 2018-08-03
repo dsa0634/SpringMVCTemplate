@@ -4,6 +4,7 @@ package com.haomostudio.SpringMVCTemplate.dao.impl;
 import com.haomostudio.SpringMVCTemplate.dao.common.Constants;
 
 import com.haomostudio.SpringMVCTemplate.dao.common.util.DataBaseOperationUtils;
+import org.apache.poi.ss.formula.functions.T;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -172,6 +173,11 @@ public class OracleDataBaseDaoImpl implements DataBaseDao {
 
     private JdbcTemplate getJdbcTemplate() {
         return new JdbcTemplate(dataSource);
+    }
+
+    @Override
+    public Object getObject(String sql, Class T){
+       return this.getJdbcTemplate().queryForObject(sql,T);
     }
 }
 
